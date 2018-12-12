@@ -32,7 +32,7 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
  Remove Arduino Reset from Ground.  
 
 ####  Step 2 >> Making your sensor ready.   
-![alt text](https://github.com/ashok2811/mlwithsensors/blob/master/mpu_nao.jpg)
+![alt text](https://github.com/ashok2811/mlwithsensors/blob/master/mpu_nao.png)
 
 
 ####  Step 3 >> Send data to UDP Server.  
