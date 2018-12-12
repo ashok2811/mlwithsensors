@@ -2,9 +2,12 @@
 In this repo, I will teach you how to get started Machine Learning with your own sensors. Here we are sending data from a sensors to a server wirelessly. The server is processing the data and extrating meaning out of that data using Machine Learning.
 ####  Step 0 >> Componets you will need.  
 Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
-####  Step 1 >> Making your ESP ready to send the data.  
+####  Step 1 >> Making your ESP ready to send the data. 
+![alt text](https://github.com/ashok2811/esp/blob/master/esp8266-5.png)
 
 ####  Step 2 >> Making your sensor ready.  
+![alt text](https://github.com/ashok2811/esp/blob/master/conn.png)
+
 
 ####  Step 3 >> Send data to UDP Server.  
 
