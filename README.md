@@ -21,19 +21,31 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
 
 * Upload the esp.ino code.    
 
-* Disconnect your Arduino Board, Make the Connection (Don't power now)  
+* Once uploaded,disconnect your Arduino Board.  
+
+* Remove Arduino Reset from Ground.  
+
+####  Step 2 >> Making your sensor ready.   
+![alt text](https://github.com/ashok2811/mlwithsensors/blob/master/mpu_nan0.jpg)  
 *Connections*   
+ SCL - A5  
+ SDA - A4
+ INT - D2
+ VCC- 5V  
+ GND - 0V 
+ 
+ * Copy I2Cdev and MPU6050 to your Arduino's libraries folder and restart the IDE.  
+ * Open the Arduino IDE and got to **Examples>MPU6050>MPU6050_DMP6**
+ * Upload this file to Arduino Nano and check on serial monitor if MPU is giving the data.
+ * Connect the ESP8266 according to following connections.  
+ *Connections*   
  Tx - Rx  
  Rx - Tx  
  VCC- 5V  
  GND - 0V   
- GPIO0 -open  
+ GPIO0 -open
+ GPIO1 - open
  CH_PD - 5V    
- Remove Arduino Reset from Ground.  
-
-####  Step 2 >> Making your sensor ready.   
-![alt text](https://github.com/ashok2811/mlwithsensors/blob/master/mpu_nan0.jpg)
-
 
 ####  Step 3 >> Send data to UDP Server.  
 
