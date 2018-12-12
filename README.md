@@ -19,8 +19,6 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
  CH_PD - 5V    
  Arduino Reset- Arduino GND   
 
-* Upload the esp.ino code.    
-
 * Once uploaded,disconnect your Arduino Board.  
 
 * Remove Arduino Reset from Ground.  
@@ -29,8 +27,8 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
 ![alt text](https://github.com/ashok2811/mlwithsensors/blob/master/mpu_nan0.jpg)  
 *Connections*   
  SCL - A5  
- SDA - A4
- INT - D2
+ SDA - A4  
+ INT - D2  
  VCC- 5V  
  GND - 0V 
  
@@ -43,8 +41,8 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
  Rx - Tx  
  VCC- 5V  
  GND - 0V   
- GPIO0 -open
- GPIO1 - open
+ GPIO0 -open  
+ GPIO1 - open  
  CH_PD - 5V    
 
 ####  Step 3 >> Send data to UDP Server.  
