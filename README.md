@@ -3,7 +3,7 @@ In this repo, I will teach you how to get started Machine Learning with your own
 ####  Step 0 >> Componets you will need.  
 Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
 ####  Step 1 >> Making your ESP ready to send the data. 
-![alt text](https://github.com/ashok2811/mlwithsensors/esp8266-5.png)
+![alt text](https://github.com/ashok2811/mlwithsensors/blob/master/esp8266-5.png)
 
 **Sending sensor data to UDP Server.**
 * Upload a Bare Minimum Code for your Board.    
@@ -32,7 +32,7 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
  Remove Arduino Reset from Ground.  
 
 ####  Step 2 >> Making your sensor ready.   
-![alt text](https://github.com/ashok2811/mlwithsensors/mpu_nano.jpg)
+![alt text](https://github.com/ashok2811/mlwithsensors/blob/master/mpu_nao.jpg)
 
 
 ####  Step 3 >> Send data to UDP Server.  
