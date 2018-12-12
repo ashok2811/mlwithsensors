@@ -21,9 +21,9 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
 
 * Upload the esp.ino code.    
 
-* Disconnect your Arduino Board, Make the Connection (Don't power now)     
+* Disconnect your Arduino Board, Make the Connection (Don't power now)       
 
-*Connections* 
+*Connections*   
  Tx - Rx  
  Rx - Tx  
  VCC- 5V  
