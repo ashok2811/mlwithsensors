@@ -1,5 +1,7 @@
 # ML with Sensors
-In this repo, I will teach you how to get started Machine Learning with your own sensors. Here we are sending data from a sensors to a server wirelessly. The server is processing the data and extrating meaning out of that data using Machine Learning.
+In this repo, I will teach you how to get started Machine Learning with your own sensors. Here we are sending data from a sensors to a server wirelessly. The server is processing the data and extrating meaning out of that data using Machine Learning.  
+This is one of the sample board created by me with Arduino Pro Mini, MPU9020 and ESP8266. But in this, we will use Arduino Nano because it does not required external programmer unlike Arduino Pro Mini and MPU6050 instead of MPU9020.  
+![alt text](https://github.com/ashok2811/mlwithsensors/blob/master/IMG_2694.JPG)
 ####  Step 0 >> Componets you will need.  
 Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
 ####  Step 1 >> Making your ESP ready to send the data. 
