@@ -8,7 +8,11 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
 **Sending sensor data to UDP Server.**
 * Upload a Bare Minimum Code for your Board.    
 * Choose your board that you will be using to program your ESP. e.g Arduino Nano.  
-* Download ESP8266 library & Board and add to the Arduino IDE.    
+* Download ESP8266 library & Board and add to the Arduino IDE.  
+  * Open the preferences window from the Arduino IDE. Go to File > Preferences  
+  * Enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into Additional Board Manager URLs field and click the “OK” button  
+  * Open boards manager. Go to Tools > Board > Boards Manager…  
+  * Scroll down, select the ESP8266 board menu and install “ESP8266 platform”
 * Select Board as Generic ESP8266 and Upload the esp.ino file to the ESP  
 *Connections*    
  Tx - Tx  
