@@ -15,15 +15,22 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
   * Enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into Additional Board Manager URLs field and click the “OK” button  
   * Open boards manager. Go to Tools > Board > Boards Manager…  
   * Scroll down, select the ESP8266 board menu and install “ESP8266 platform”
-* Select Board as Generic ESP8266 and Upload the esp.ino file to the ESP  
-*Connections*    
- Tx - Tx  
- Rx - Rx  
- VCC- 5V  
- GND - 0V   
- GPIO0 -0V  
- CH_PD - 5V    
- Arduino Reset- Arduino GND   
+* Select Board as Generic ESP8266 and Upload the esp.ino file to the ESP. **Make these changes to the esp.ino file before uploading** 
+* Steps for making changes in esp.ino file.  
+  * Make a hotspot using your phone. 
+  * Set SSID and Password in your phone for hotspot.
+  * Connect your laptop to same hotspot and find your IP Address. It will look something like this- "192.168.43.101". In Linux you can do this by pressing *ifconfig* in Terminal.
+  * Finally, replace your SSID, Password, UDP address *(same as IP address)* and UDP Port *(your choice four digit number greater than 1024, like 6969)*
+  * Save the changes and now your are ready to upload this file to the ESP Board.  
+  
+  *Connections for uplaoding esp.ino in ESP*    
+    Tx - Tx  
+    Rx - Rx  
+    VCC- 5V  
+    GND - 0V   
+    GPIO0 -0V  
+    CH_PD - 5V    
+    Arduino Reset- Arduino GND   
 
 * Once uploaded,disconnect your Arduino Board.  
 
@@ -52,6 +59,8 @@ Arduino *(here Arduino Nano)* , A Sensor *(here MPU6050)* , ESP8266-01
  CH_PD - 5V    
 
 ####  Step 3 >> Send data to UDP Server.  
+* Mak
+
 
 ####  Step 4 >> Save the incoming data. *(server side)*  
 
